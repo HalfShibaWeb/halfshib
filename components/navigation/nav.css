@@ -1,0 +1,11 @@
+.nav_list {
+    @apply capitalize lg:uppercase text-white text-2xl font-medium font-Barlow;
+  }
+  
+  .active_nav {
+    @apply font-titleBold;
+  }
+
+.h2-logo {
+  font-size: calc(1.325rem + .9vw);
+}

@@ -41,27 +41,27 @@ function Nav() {
           <div className="flex gap-3 md:gap-5">
             <ul className="flex gap-8 items-center">
               <li>
-                <Link href="#home" className="nav_list active_nav">
+                <a href="#home" className="nav_list active_nav">
                   home
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="#about" className="nav_list">
+                <a href="#about" className="nav_list">
                   about us
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="#tokenomics" className="nav_list">
+                <a href="#tokenomics" className="nav_list">
                   tokenomics
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link href="#nft" className="nav_list">
+                <a href="#nft" className="nav_list">
                   nft
-                </Link>
+                </a>
               </li>
 
               <li>
@@ -83,43 +83,43 @@ function Nav() {
             <div className="lg:hidden inset-0 flex absolute justify-center w-screen h-screen items-center z-50 bg-black text-center">
               <ul className="flex flex-col gap-4 md:text-4xl origin-top">
                 <li>
-                  <Link
+                  <a
                     onClick={() => setHamburgerActive(!hamburgerActive)}
                     href="#home"
                     className="nav_list active_nav"
                   >
                     home
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     onClick={() => setHamburgerActive(!hamburgerActive)}
                     href="#about"
                     className="nav_list"
                   >
                     about us
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     onClick={() => setHamburgerActive(!hamburgerActive)}
                     href="#tokenomics"
                     className="nav_list"
                   >
                     tokenomics
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     onClick={() => setHamburgerActive(!hamburgerActive)}
                     href="#nft"
                     className="nav_list"
                   >
                     nft
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
